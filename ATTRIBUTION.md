@@ -1,25 +1,32 @@
-# VIGIL attribution and scope
+# VIGIL — Attribution and distribution scope
 
-Proposed text for the reviewed source release. The owner approved Apache-2.0 for original VIGIL code. Contributor authorization and asset clearance are pending in this local proposal. This draft describes the LUNA-01 browser-based synthetic demonstration. It uses fixed topic selection over bundled educational excerpts and tab-local simulation state. The separate authenticated backend, persistent private storage, live Qwen inference and governed model orchestration are outside this public source distribution. No clinical validation is claimed.
+This file documents the **published LUNA-01 browser-only synthetic demonstration**. Original VIGIL source code is distributed under [Apache License 2.0](LICENSE). The project owner confirms that contributors authorized release of their original contributions and reports that the models, textures, illustration, and poster were team-created through AI-assisted and Blender workflows. These statements record the owner's confirmation; they are **not independent certification** of third-party intellectual-property rights.
+
+The separately developed authenticated FastAPI backend, persistent private databases, local Qwen model integration and governed model orchestration are **not included** in this public repository.
 
 ## NASA educational references
 
-Credit NASA for editorial text in the source pages listed below. The fixture carries each passage ID, source version and retrieval date. The versioned rights matrix records the nine included passages. The two extracts lacking adequate archived-source evidence were removed. NASA excerpts retain their own status under applicable NASA reuse rules. They are outside the proposed Apache-2.0 grant for original VIGIL code. No NASA sponsorship or endorsement is implied. Third-party notices and imagery restrictions are separate from text reuse.
+The public browser fixture contains **nine verified excerpts**, drawn from the following research resources. Two excerpts lacking archived-source verification were excluded from this public distribution. The broader private development corpus contained **25 collected passages** subject to separate educational review. NASA editorial text is not covered by VIGIL's Apache-2.0 code license; no NASA sponsorship or endorsement is implied.
 
-- NASA Human Research Program. [Risks of Human Spaceflight](https://www.nasa.gov/hrp/risks/)
-- NASA Human Research Program. [Hazard: Isolation and Confinement](https://www.nasa.gov/hrp/hazard-isolation-and-confinement/)
-- NASA Humans in Space. [The Human Body in Space](https://www.nasa.gov/humans-in-space/the-human-body-in-space/)
+- NASA Human Research Program: [Risks of Human Spaceflight](https://www.nasa.gov/hrp/risks/)
+- NASA Human Research Program: [Hazard: Isolation and Confinement](https://www.nasa.gov/hrp/hazard-isolation-and-confinement/)
+- NASA: [The Human Body in Space](https://www.nasa.gov/humans-in-space/the-human-body-in-space/)
 
-NASA media guidance and rights restrictions. [NASA Brand Center](https://www.nasa.gov/nasa-brand-center/images-and-media/)
+NASA source material and any embedded third-party material remain subject to applicable use and attribution requirements. See [NASA images and media guidance](https://www.nasa.gov/nasa-brand-center/images-and-media/). These passages are educational background, **not astronaut patient data**.
 
-## Software and fonts
+## Software dependencies and fonts
 
-The lockfile records all npm versions. React, React Three Fiber, Three.js, Recharts, Vite and Tailwind CSS carry their upstream MIT terms. Lucide carries ISC terms and upstream Feather-derived notices where applicable. IBM Plex Sans and IBM Plex Mono are supplied by Fontsource and credited to IBM Corp. under the SIL Open Font License 1.1. The 53-file source version references these packages. A compiled distribution must carry the copyrights, license text and notices for its actual bundled modules and fonts, including any applicable file-level source obligations. [IBM Plex license](https://github.com/IBM/plex/blob/master/LICENSE.txt) · [Lucide license](https://github.com/lucide-icons/lucide/blob/main/LICENSE)
+The pinned `frontend/package-lock.json` records package versions. React, React Three Fiber, Three.js, Recharts, Vite, and Tailwind CSS are distributed under their upstream terms. Lucide uses its applicable upstream terms and notices. IBM Plex Sans and IBM Plex Mono, included through Fontsource, are associated with the SIL Open Font License 1.1. For redistributed compiled bundles, preserve applicable upstream copyright, font and license notices.
 
-## Project graphics, documentation and media
+- [IBM Plex licensing](https://github.com/IBM/plex/blob/master/LICENSE.txt)
+- [Lucide licensing](https://github.com/lucide-icons/lucide/blob/main/LICENSE)
 
-Record the verified creator, ownership or permission and required credit from the rights matrix before releasing the staff and telemetry models, lunar illustration, poster or any derivative images. The existing guide is retained under its own status. The linked submission video is separate from the source snapshot and requires its own evidence for visuals, narration, music and any recognizable likenesses. Do not infer the exact hosted cut from an internal edit record.
+## Graphics, 3D scenes and video
 
-## AI assistance
+The project owner reports that the team created the medical support models, 3D scenes, embedded textures, lunar illustration and poster using **Claude-assisted Blender workflows and AI-assisted visual creation**; contributors have authorized publication. This does not relicense third-party materials or guarantee that an AI-assisted asset is free of third-party claims. The online submission video is a separately hosted artifact with its own media, music and narration rights considerations.
 
-The owner reports team-created models using Claude-assisted workflows and Blender, and team-created AI-assisted lunar illustration and poster. ChatGPT and OpenAI Codex assisted code development and testing. The static demo uses fixed reference selection.
+## AI assistance and safety
+
+The team used ChatGPT and OpenAI Codex for assistance with development, review and testing, and reports Claude assistance for 3D assets. Public support-mode responses use deterministic educational reference selection, not a live medical AI model. All crew information is synthetic; there is no clinical validation.
+
+For the current public code's exact feature scope, refer to [PUBLIC_RELEASE_NOTES.md](docs/PUBLIC_RELEASE_NOTES.md).

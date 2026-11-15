@@ -1,0 +1,130 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+2 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+3 0 obj
+<< /Type /Pages /Kids [5 0 R 7 0 R 9 0 R] /Count 3 >>
+endobj
+4 0 obj
+<< /Type /Catalog /Pages 3 0 R >>
+endobj
+5 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4272 >>
+stream
+0.45 0.20 0.19 rg 0 828 595 14 re f
+0.32 0.33 0.38 rg BT /F1 8 Tf 50 28 Td (VIGIL | NASA Space Apps Challenge 2026 | 15 Nov 2026) Tj ET
+0.45 0.20 0.19 rg BT /F2 21 Tf 49 775 Td (VIGIL - NASA Space Apps Challenge 2026) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 740 Td (Vital Intelligence and Guidance for Interplanetary Life.) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 717 Td (Human-centered lunar astronaut health companion - LUNA-01 synthetic research prototype.) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 694 Td (PUBLIC DEMO: https://vigil-space-apps-2026.pages.dev/) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 671 Td (DEMO VIDEO: https://vigil-space-apps-2026.pages.dev/space-apps-demo.mp4) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 648 Td (NOTE: These links were supplied by the team; current public reachability is not independently) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 634 Td (verified.) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 611 Td (IMPORTANT: Fictional crew and synthetic records. Simulated medical agents. Not a clinical or) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 597 Td (medical device.) Tj ET
+0.45 0.20 0.19 rg BT /F2 15 Tf 49 563 Td (1. The problem and the approach) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 532 Td (Lunar exploration requires continuity of health observations even when access to Earth-based) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 518 Td (medical support is limited. VIGIL is an educational, local-first prototype designed to provide) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 504 Td (personal baseline context, mission-phase observations and human-centered simulated assistance.) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 481 Td (The LUNA-01 story moves from Earth baselines \(days -6 to -1\) through transit in microgravity) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 467 Td (\(days 0 to 3\), landing \(day 4\) and lunar surface check-ins thereafter.) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 444 Td (Dashboards display fictional resting heart rate, heart-rate variability, sleep, exercise,) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 430 Td (wellness and fatigue measurements, plus baseline comparisons and limited crew-wide observation) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 416 Td (patterns.) Tj ET
+0.45 0.20 0.19 rg BT /F2 15 Tf 49 382 Td (2. Four bounded medical support roles) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 351 Td (VIGIL provides simulated Doctor, Nurse, Pharmacist and Psychologist modes. These are) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 337 Td (educational support experiences, not licensed clinicians or autonomous healthcare providers.) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 314 Td (Doctor: helps inspect recorded observations and cited NASA reference excerpts. Nurse:) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 300 Td (supportive check-ins. Pharmacist: records questions for a human reviewer but does not prescribe) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 286 Td (or dose medicines. Psychologist: supportive discussion, not diagnosis or psychotherapy.) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 263 Td (Explicit confirmation, purpose-scoped user-reported memory, source governance, bounded) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 249 Td (model-output selection and citations are part of the full development prototype. The public) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 235 Td (static website may have fewer features.) Tj ET
+0.45 0.20 0.19 rg BT /F2 15 Tf 49 201 Td (3. Technical design and safety boundaries) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 170 Td (Research prototype: React, TypeScript, Vite, Three.js / React Three Fiber for the UI; FastAPI) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 156 Td (and SQLite for local service and synthetic records; optional Ollama Qwen3:4b for local model) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 142 Td (selection; SQLite FTS5 for NASA excerpt retrieval.) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 119 Td (All crew records are synthetic. Raw symptom narratives and encounters are excluded from) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 105 Td (automatic model context. Clinically restricted content does not become treatment advice through) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 91 Td (the model. The Earth communication outage in the UI is a simulation.) Tj ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 4438 >>
+stream
+0.45 0.20 0.19 rg 0 828 595 14 re f
+0.32 0.33 0.38 rg BT /F1 8 Tf 50 28 Td (VIGIL | NASA Space Apps Challenge 2026 | 15 Nov 2026) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 775 Td (The active private SQLite data store is not encrypted at rest. Do not use real clinical data. A) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 761 Td (public release requires stronger privacy, security, backup, regulatory and clinical validation.) Tj ET
+0.45 0.20 0.19 rg BT /F2 15 Tf 49 727 Td (4. NASA research actually incorporated) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 696 Td (The private development corpus contains source-attributed educational excerpts from:) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 673 Td (\(1\) Risks of Human Spaceflight - https://www.nasa.gov/hrp/risks/) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 650 Td (\(2\) Hazard: Isolation and Confinement -) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 636 Td (https://www.nasa.gov/hrp/hazard-isolation-and-confinement/) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 613 Td (\(3\) The Human Body in Space - https://www.nasa.gov/humans-in-space/the-human-body-in-space/) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 590 Td (The versioned corpus comprises 25 NASA passages; the recorded educational review decisions are) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 576 Td (17 approve, 5 revise and 3 exclude. This is not clinical validation and is not real astronaut) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 562 Td (patient data.) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 539 Td (Challenge eligibility action: verify that at least one resource actually used is on the) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 525 Td (selected NASA Space Apps challenge Resources list.) Tj ET
+0.45 0.20 0.19 rg BT /F2 15 Tf 49 491 Td (5. Future research - not current clinical features) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 460 Td (Planned possibilities include bone-health biochemical workups \(vitamin D, calcium regulation,) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 446 Td (PTH, bone turnover markers\), ultrasound or robotic muscle assessment, menstrual and) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 432 Td (reproductive and sexual-health support with robust privacy, and robotic laboratory / med-bay) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 418 Td (integration.) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 395 Td (Future model specialization and high-quality retrieval may support research toward AI-assisted) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 381 Td (diagnostic and treatment workflows only after clinical evaluation, safety validation, physician) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 367 Td (oversight and regulatory review.) Tj ET
+0.45 0.20 0.19 rg BT /F2 15 Tf 49 333 Td (6. Evaluation guide and responsible disclosure) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 302 Td (1\) Open the reported public demo. 2\) View LUNA-01 and mission timeline. 3\) Review personal) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 288 Td (baselines and trends. 4\) Explore simulated care agents. 5\) Watch the 27-second demo link and) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 274 Td (review NASA references.) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 251 Td (AI assistance in project development included ChatGPT / OpenAI Codex and other) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 237 Td (coding/deployment support. The official project page should disclose all tools actually used.) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 214 Td (Publish a clean source snapshot only after a full file and Git-history secret scan, licensing) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 200 Td (and asset-rights review, CI pass on the public release commit, documentation of pre-event work,) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 186 Td (and verification of demo links in a private browser window.) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 163 Td (The full development repo should not be made public wholesale. Include an approved open-source) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 149 Td (LICENSE; none was found in the inspected private repo.) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 126 Td (NASA Space Apps official site: https://www.spaceappschallenge.org/2026/) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 103 Td (Participation terms and licensing: https://www.spaceappschallenge.org/legal/) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 80 Td (Prepared 15 November 2026. This guide does not certify the prototype as secure or clinically) Tj ET
+endstream
+endobj
+9 0 obj
+<< /Type /Page /Parent 3 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 1 0 R /F2 2 0 R >> >> /Contents 10 0 R >>
+endobj
+10 0 obj
+<< /Length 197 >>
+stream
+0.45 0.20 0.19 rg 0 828 595 14 re f
+0.32 0.33 0.38 rg BT /F1 8 Tf 50 28 Td (VIGIL | NASA Space Apps Challenge 2026 | 15 Nov 2026) Tj ET
+0.12 0.14 0.18 rg BT /F1 9.3 Tf 49 775 Td (validated.) Tj ET
+endstream
+endobj
+xref
+0 11
+0000000000 65535 f 
+0000000009 00000 n 
+0000000079 00000 n 
+0000000154 00000 n 
+0000000223 00000 n 
+0000000272 00000 n 
+0000000408 00000 n 
+0000004731 00000 n 
+0000004867 00000 n 
+0000009356 00000 n 
+0000009493 00000 n 
+trailer << /Size 11 /Root 4 0 R >>
+startxref
+9741
+%%EOF

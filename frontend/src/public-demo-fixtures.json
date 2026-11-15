@@ -1,0 +1,875 @@
+{
+  "fixtures": {
+    "/mission": {
+      "id": 1,
+      "name": "LUNA-01 - Lunar Surface Health Companion",
+      "destination": "Lunar south-pole surface (fictional)",
+      "mission_day": 7,
+      "updated_at": "2026-11-15T07:46:09.652873+00:00"
+    },
+    "/crew": [
+      {
+        "id": 1,
+        "name": "Alex Morgan",
+        "role": "Flight engineer",
+        "synthetic": 1,
+        "created_at": "2026-11-15T07:46:09.652873+00:00"
+      },
+      {
+        "id": 2,
+        "name": "Sam Vega",
+        "role": "Mission specialist",
+        "synthetic": 1,
+        "created_at": "2026-11-15 07:46:09"
+      }
+    ],
+    "/crew/1/overview": {
+      "crew": {
+        "id": 1,
+        "name": "Alex Morgan",
+        "role": "Flight engineer",
+        "synthetic": 1,
+        "created_at": "2026-11-15T07:46:09.652873+00:00"
+      },
+      "synthetic": true,
+      "mission_context": {
+        "scenario": "LUNA-01",
+        "phase": "Lunar surface",
+        "mission_day": 7,
+        "gravity_context": "Lunar one-sixth gravity",
+        "evidence_scope": "General NASA spaceflight references do not establish short-duration lunar bone or muscle deterioration.",
+        "communications": "Earth connectivity or relay access may be unavailable."
+      },
+      "baselines": {
+        "exercise_minutes": 90.0,
+        "heart_rate": 62.0,
+        "hrv": 58.0,
+        "sleep_hours": 8.0
+      },
+      "measurements": [
+        {
+          "id": 1,
+          "crew_id": 1,
+          "recorded_at": "2026-11-02T07:46:09.652873+00:00",
+          "mission_day": -6,
+          "heart_rate": 62.0,
+          "hrv": 60.0,
+          "sleep_hours": 7.8,
+          "exercise_minutes": 90.0,
+          "exercise_completion": 100.0
+        },
+        {
+          "id": 2,
+          "crew_id": 1,
+          "recorded_at": "2026-11-03T07:46:09.652873+00:00",
+          "mission_day": -5,
+          "heart_rate": 64.0,
+          "hrv": 58.0,
+          "sleep_hours": 7.5,
+          "exercise_minutes": 85.0,
+          "exercise_completion": 95.0
+        },
+        {
+          "id": 3,
+          "crew_id": 1,
+          "recorded_at": "2026-11-04T07:46:09.652873+00:00",
+          "mission_day": -4,
+          "heart_rate": 61.0,
+          "hrv": 61.0,
+          "sleep_hours": 7.2,
+          "exercise_minutes": 80.0,
+          "exercise_completion": 90.0
+        },
+        {
+          "id": 4,
+          "crew_id": 1,
+          "recorded_at": "2026-11-05T07:46:09.652873+00:00",
+          "mission_day": -3,
+          "heart_rate": 65.0,
+          "hrv": 56.0,
+          "sleep_hours": 6.9,
+          "exercise_minutes": 90.0,
+          "exercise_completion": 100.0
+        },
+        {
+          "id": 5,
+          "crew_id": 1,
+          "recorded_at": "2026-11-06T07:46:09.652873+00:00",
+          "mission_day": -2,
+          "heart_rate": 63.0,
+          "hrv": 59.0,
+          "sleep_hours": 7.8,
+          "exercise_minutes": 85.0,
+          "exercise_completion": 95.0
+        },
+        {
+          "id": 6,
+          "crew_id": 1,
+          "recorded_at": "2026-11-07T07:46:09.652873+00:00",
+          "mission_day": -1,
+          "heart_rate": 62.0,
+          "hrv": 60.0,
+          "sleep_hours": 7.5,
+          "exercise_minutes": 80.0,
+          "exercise_completion": 90.0
+        },
+        {
+          "id": 7,
+          "crew_id": 1,
+          "recorded_at": "2026-11-08T07:46:09.652873+00:00",
+          "mission_day": 0,
+          "heart_rate": 66.0,
+          "hrv": 55.0,
+          "sleep_hours": 7.2,
+          "exercise_minutes": 90.0,
+          "exercise_completion": 100.0
+        },
+        {
+          "id": 8,
+          "crew_id": 1,
+          "recorded_at": "2026-11-09T07:46:09.652873+00:00",
+          "mission_day": 1,
+          "heart_rate": 64.0,
+          "hrv": 58.0,
+          "sleep_hours": 6.9,
+          "exercise_minutes": 85.0,
+          "exercise_completion": 95.0
+        },
+        {
+          "id": 9,
+          "crew_id": 1,
+          "recorded_at": "2026-11-10T07:46:09.652873+00:00",
+          "mission_day": 2,
+          "heart_rate": 63.0,
+          "hrv": 60.0,
+          "sleep_hours": 7.8,
+          "exercise_minutes": 80.0,
+          "exercise_completion": 90.0
+        },
+        {
+          "id": 10,
+          "crew_id": 1,
+          "recorded_at": "2026-11-11T07:46:09.652873+00:00",
+          "mission_day": 3,
+          "heart_rate": 65.0,
+          "hrv": 57.0,
+          "sleep_hours": 7.5,
+          "exercise_minutes": 90.0,
+          "exercise_completion": 100.0
+        },
+        {
+          "id": 11,
+          "crew_id": 1,
+          "recorded_at": "2026-11-12T07:46:09.652873+00:00",
+          "mission_day": 4,
+          "heart_rate": 64.0,
+          "hrv": 58.0,
+          "sleep_hours": 7.2,
+          "exercise_minutes": 85.0,
+          "exercise_completion": 95.0
+        },
+        {
+          "id": 12,
+          "crew_id": 1,
+          "recorded_at": "2026-11-13T07:46:09.652873+00:00",
+          "mission_day": 5,
+          "heart_rate": 66.0,
+          "hrv": 54.0,
+          "sleep_hours": 6.9,
+          "exercise_minutes": 80.0,
+          "exercise_completion": 90.0
+        },
+        {
+          "id": 13,
+          "crew_id": 1,
+          "recorded_at": "2026-11-14T07:46:09.652873+00:00",
+          "mission_day": 6,
+          "heart_rate": 65.0,
+          "hrv": 56.0,
+          "sleep_hours": 7.8,
+          "exercise_minutes": 90.0,
+          "exercise_completion": 100.0
+        },
+        {
+          "id": 14,
+          "crew_id": 1,
+          "recorded_at": "2026-11-15T07:46:09.652873+00:00",
+          "mission_day": 7,
+          "heart_rate": 64.0,
+          "hrv": 57.0,
+          "sleep_hours": 7.5,
+          "exercise_minutes": 85.0,
+          "exercise_completion": 95.0
+        }
+      ],
+      "checkins": [
+        {
+          "id": 1,
+          "crew_id": 1,
+          "recorded_at": "2026-11-02T07:46:09.652873+00:00",
+          "mission_day": -6,
+          "wellness": 4,
+          "fatigue": 2,
+          "mood": 4,
+          "symptoms": "None reported",
+          "notes": "Synthetic Earth baseline"
+        },
+        {
+          "id": 2,
+          "crew_id": 1,
+          "recorded_at": "2026-11-03T07:46:09.652873+00:00",
+          "mission_day": -5,
+          "wellness": 4,
+          "fatigue": 3,
+          "mood": 4,
+          "symptoms": "None reported",
+          "notes": "Synthetic Earth baseline"
+        },
+        {
+          "id": 3,
+          "crew_id": 1,
+          "recorded_at": "2026-11-04T07:46:09.652873+00:00",
+          "mission_day": -4,
+          "wellness": 4,
+          "fatigue": 2,
+          "mood": 4,
+          "symptoms": "None reported",
+          "notes": "Synthetic Earth baseline"
+        },
+        {
+          "id": 4,
+          "crew_id": 1,
+          "recorded_at": "2026-11-05T07:46:09.652873+00:00",
+          "mission_day": -3,
+          "wellness": 4,
+          "fatigue": 3,
+          "mood": 4,
+          "symptoms": "None reported",
+          "notes": "Synthetic Earth baseline"
+        },
+        {
+          "id": 5,
+          "crew_id": 1,
+          "recorded_at": "2026-11-06T07:46:09.652873+00:00",
+          "mission_day": -2,
+          "wellness": 4,
+          "fatigue": 2,
+          "mood": 4,
+          "symptoms": "None reported",
+          "notes": "Synthetic Earth baseline"
+        },
+        {
+          "id": 6,
+          "crew_id": 1,
+          "recorded_at": "2026-11-07T07:46:09.652873+00:00",
+          "mission_day": -1,
+          "wellness": 4,
+          "fatigue": 3,
+          "mood": 4,
+          "symptoms": "None reported",
+          "notes": "Synthetic Earth baseline"
+        },
+        {
+          "id": 7,
+          "crew_id": 1,
+          "recorded_at": "2026-11-08T07:46:09.652873+00:00",
+          "mission_day": 0,
+          "wellness": 4,
+          "fatigue": 2,
+          "mood": 4,
+          "symptoms": "None reported",
+          "notes": "Synthetic launch / transit microgravity"
+        },
+        {
+          "id": 8,
+          "crew_id": 1,
+          "recorded_at": "2026-11-09T07:46:09.652873+00:00",
+          "mission_day": 1,
+          "wellness": 4,
+          "fatigue": 3,
+          "mood": 4,
+          "symptoms": "None reported",
+          "notes": "Synthetic launch / transit microgravity"
+        },
+        {
+          "id": 9,
+          "crew_id": 1,
+          "recorded_at": "2026-11-10T07:46:09.652873+00:00",
+          "mission_day": 2,
+          "wellness": 4,
+          "fatigue": 2,
+          "mood": 4,
+          "symptoms": "None reported",
+          "notes": "Synthetic launch / transit microgravity"
+        },
+        {
+          "id": 10,
+          "crew_id": 1,
+          "recorded_at": "2026-11-11T07:46:09.652873+00:00",
+          "mission_day": 3,
+          "wellness": 4,
+          "fatigue": 3,
+          "mood": 4,
+          "symptoms": "None reported",
+          "notes": "Synthetic launch / transit microgravity"
+        },
+        {
+          "id": 11,
+          "crew_id": 1,
+          "recorded_at": "2026-11-12T07:46:09.652873+00:00",
+          "mission_day": 4,
+          "wellness": 4,
+          "fatigue": 2,
+          "mood": 4,
+          "symptoms": "None reported",
+          "notes": "Synthetic landing / lunar one-sixth gravity surface check-in"
+        },
+        {
+          "id": 12,
+          "crew_id": 1,
+          "recorded_at": "2026-11-13T07:46:09.652873+00:00",
+          "mission_day": 5,
+          "wellness": 4,
+          "fatigue": 3,
+          "mood": 4,
+          "symptoms": "None reported",
+          "notes": "Synthetic landing / lunar one-sixth gravity surface check-in"
+        },
+        {
+          "id": 13,
+          "crew_id": 1,
+          "recorded_at": "2026-11-14T07:46:09.652873+00:00",
+          "mission_day": 6,
+          "wellness": 4,
+          "fatigue": 2,
+          "mood": 4,
+          "symptoms": "None reported",
+          "notes": "Synthetic landing / lunar one-sixth gravity surface check-in"
+        },
+        {
+          "id": 14,
+          "crew_id": 1,
+          "recorded_at": "2026-11-15T07:46:09.652873+00:00",
+          "mission_day": 7,
+          "wellness": 4,
+          "fatigue": 3,
+          "mood": 4,
+          "symptoms": "None reported",
+          "notes": "Synthetic landing / lunar one-sixth gravity surface check-in"
+        }
+      ],
+      "encounters": [
+        {
+          "id": 1,
+          "crew_id": 1,
+          "recorded_at": "2026-11-02T07:46:09.652873+00:00",
+          "mission_day": -6,
+          "title": "Earth baseline review",
+          "notes": "Synthetic pre-launch personal baselines; no clinical assessment."
+        },
+        {
+          "id": 2,
+          "crew_id": 1,
+          "recorded_at": "2026-11-12T07:46:09.652873+00:00",
+          "mission_day": 4,
+          "title": "Lunar south-pole landing",
+          "notes": "Fictional landing. Transit microgravity ends; surface operations use lunar one-sixth gravity."
+        },
+        {
+          "id": 3,
+          "crew_id": 1,
+          "recorded_at": "2026-11-15T07:46:09.652873+00:00",
+          "mission_day": 7,
+          "title": "Surface health check-in",
+          "notes": "Synthetic short-duration surface observations; no established bone or muscle deterioration."
+        }
+      ],
+      "demo_indicators": [],
+      "demo_rules": {
+        "sleep_baseline_fraction": 0.85,
+        "fatigue_review_score": 4
+      }
+    },
+    "/crew/2/overview": {
+      "crew": {
+        "id": 2,
+        "name": "Sam Vega",
+        "role": "Mission specialist",
+        "synthetic": 1,
+        "created_at": "2026-11-15 07:46:09"
+      },
+      "synthetic": true,
+      "mission_context": {
+        "scenario": "LUNA-01",
+        "phase": "Lunar surface",
+        "mission_day": 7,
+        "gravity_context": "Lunar one-sixth gravity",
+        "evidence_scope": "General NASA spaceflight references do not establish short-duration lunar bone or muscle deterioration.",
+        "communications": "Earth connectivity or relay access may be unavailable."
+      },
+      "baselines": {
+        "exercise_minutes": 90.0,
+        "heart_rate": 62.0,
+        "hrv": 58.0,
+        "sleep_hours": 8.0
+      },
+      "measurements": [
+        {
+          "id": 101,
+          "crew_id": 2,
+          "recorded_at": "2026-11-02T07:46:09.652873+00:00",
+          "mission_day": -6,
+          "heart_rate": 65.0,
+          "hrv": 58.0,
+          "sleep_hours": 7.5,
+          "exercise_minutes": 90.0,
+          "exercise_completion": 100.0
+        },
+        {
+          "id": 102,
+          "crew_id": 2,
+          "recorded_at": "2026-11-03T07:46:09.652873+00:00",
+          "mission_day": -5,
+          "heart_rate": 67.0,
+          "hrv": 56.0,
+          "sleep_hours": 7.2,
+          "exercise_minutes": 85.0,
+          "exercise_completion": 95.0
+        },
+        {
+          "id": 103,
+          "crew_id": 2,
+          "recorded_at": "2026-11-04T07:46:09.652873+00:00",
+          "mission_day": -4,
+          "heart_rate": 64.0,
+          "hrv": 59.0,
+          "sleep_hours": 6.9,
+          "exercise_minutes": 80.0,
+          "exercise_completion": 90.0
+        },
+        {
+          "id": 104,
+          "crew_id": 2,
+          "recorded_at": "2026-11-05T07:46:09.652873+00:00",
+          "mission_day": -3,
+          "heart_rate": 68.0,
+          "hrv": 54.0,
+          "sleep_hours": 6.6000000000000005,
+          "exercise_minutes": 90.0,
+          "exercise_completion": 100.0
+        },
+        {
+          "id": 105,
+          "crew_id": 2,
+          "recorded_at": "2026-11-06T07:46:09.652873+00:00",
+          "mission_day": -2,
+          "heart_rate": 66.0,
+          "hrv": 57.0,
+          "sleep_hours": 7.5,
+          "exercise_minutes": 85.0,
+          "exercise_completion": 95.0
+        },
+        {
+          "id": 106,
+          "crew_id": 2,
+          "recorded_at": "2026-11-07T07:46:09.652873+00:00",
+          "mission_day": -1,
+          "heart_rate": 65.0,
+          "hrv": 58.0,
+          "sleep_hours": 7.2,
+          "exercise_minutes": 80.0,
+          "exercise_completion": 90.0
+        },
+        {
+          "id": 107,
+          "crew_id": 2,
+          "recorded_at": "2026-11-08T07:46:09.652873+00:00",
+          "mission_day": 0,
+          "heart_rate": 69.0,
+          "hrv": 53.0,
+          "sleep_hours": 6.9,
+          "exercise_minutes": 90.0,
+          "exercise_completion": 100.0
+        },
+        {
+          "id": 108,
+          "crew_id": 2,
+          "recorded_at": "2026-11-09T07:46:09.652873+00:00",
+          "mission_day": 1,
+          "heart_rate": 67.0,
+          "hrv": 56.0,
+          "sleep_hours": 6.6000000000000005,
+          "exercise_minutes": 85.0,
+          "exercise_completion": 95.0
+        },
+        {
+          "id": 109,
+          "crew_id": 2,
+          "recorded_at": "2026-11-10T07:46:09.652873+00:00",
+          "mission_day": 2,
+          "heart_rate": 66.0,
+          "hrv": 58.0,
+          "sleep_hours": 7.5,
+          "exercise_minutes": 80.0,
+          "exercise_completion": 90.0
+        },
+        {
+          "id": 110,
+          "crew_id": 2,
+          "recorded_at": "2026-11-11T07:46:09.652873+00:00",
+          "mission_day": 3,
+          "heart_rate": 68.0,
+          "hrv": 55.0,
+          "sleep_hours": 7.2,
+          "exercise_minutes": 90.0,
+          "exercise_completion": 100.0
+        },
+        {
+          "id": 111,
+          "crew_id": 2,
+          "recorded_at": "2026-11-12T07:46:09.652873+00:00",
+          "mission_day": 4,
+          "heart_rate": 67.0,
+          "hrv": 56.0,
+          "sleep_hours": 6.9,
+          "exercise_minutes": 85.0,
+          "exercise_completion": 95.0
+        },
+        {
+          "id": 112,
+          "crew_id": 2,
+          "recorded_at": "2026-11-13T07:46:09.652873+00:00",
+          "mission_day": 5,
+          "heart_rate": 69.0,
+          "hrv": 52.0,
+          "sleep_hours": 6.6000000000000005,
+          "exercise_minutes": 80.0,
+          "exercise_completion": 90.0
+        },
+        {
+          "id": 113,
+          "crew_id": 2,
+          "recorded_at": "2026-11-14T07:46:09.652873+00:00",
+          "mission_day": 6,
+          "heart_rate": 68.0,
+          "hrv": 54.0,
+          "sleep_hours": 7.5,
+          "exercise_minutes": 90.0,
+          "exercise_completion": 100.0
+        },
+        {
+          "id": 114,
+          "crew_id": 2,
+          "recorded_at": "2026-11-15T07:46:09.652873+00:00",
+          "mission_day": 7,
+          "heart_rate": 67.0,
+          "hrv": 55.0,
+          "sleep_hours": 7.2,
+          "exercise_minutes": 85.0,
+          "exercise_completion": 95.0
+        }
+      ],
+      "checkins": [
+        {
+          "id": 101,
+          "crew_id": 2,
+          "recorded_at": "2026-11-02T07:46:09.652873+00:00",
+          "mission_day": -6,
+          "wellness": 4,
+          "fatigue": 2,
+          "mood": 4,
+          "symptoms": "None reported",
+          "notes": "Synthetic Earth baseline"
+        },
+        {
+          "id": 102,
+          "crew_id": 2,
+          "recorded_at": "2026-11-03T07:46:09.652873+00:00",
+          "mission_day": -5,
+          "wellness": 4,
+          "fatigue": 3,
+          "mood": 4,
+          "symptoms": "None reported",
+          "notes": "Synthetic Earth baseline"
+        },
+        {
+          "id": 103,
+          "crew_id": 2,
+          "recorded_at": "2026-11-04T07:46:09.652873+00:00",
+          "mission_day": -4,
+          "wellness": 4,
+          "fatigue": 2,
+          "mood": 4,
+          "symptoms": "None reported",
+          "notes": "Synthetic Earth baseline"
+        },
+        {
+          "id": 104,
+          "crew_id": 2,
+          "recorded_at": "2026-11-05T07:46:09.652873+00:00",
+          "mission_day": -3,
+          "wellness": 4,
+          "fatigue": 3,
+          "mood": 4,
+          "symptoms": "None reported",
+          "notes": "Synthetic Earth baseline"
+        },
+        {
+          "id": 105,
+          "crew_id": 2,
+          "recorded_at": "2026-11-06T07:46:09.652873+00:00",
+          "mission_day": -2,
+          "wellness": 4,
+          "fatigue": 2,
+          "mood": 4,
+          "symptoms": "None reported",
+          "notes": "Synthetic Earth baseline"
+        },
+        {
+          "id": 106,
+          "crew_id": 2,
+          "recorded_at": "2026-11-07T07:46:09.652873+00:00",
+          "mission_day": -1,
+          "wellness": 4,
+          "fatigue": 3,
+          "mood": 4,
+          "symptoms": "None reported",
+          "notes": "Synthetic Earth baseline"
+        },
+        {
+          "id": 107,
+          "crew_id": 2,
+          "recorded_at": "2026-11-08T07:46:09.652873+00:00",
+          "mission_day": 0,
+          "wellness": 4,
+          "fatigue": 2,
+          "mood": 4,
+          "symptoms": "None reported",
+          "notes": "Synthetic launch / transit microgravity"
+        },
+        {
+          "id": 108,
+          "crew_id": 2,
+          "recorded_at": "2026-11-09T07:46:09.652873+00:00",
+          "mission_day": 1,
+          "wellness": 4,
+          "fatigue": 3,
+          "mood": 4,
+          "symptoms": "None reported",
+          "notes": "Synthetic launch / transit microgravity"
+        },
+        {
+          "id": 109,
+          "crew_id": 2,
+          "recorded_at": "2026-11-10T07:46:09.652873+00:00",
+          "mission_day": 2,
+          "wellness": 4,
+          "fatigue": 2,
+          "mood": 4,
+          "symptoms": "None reported",
+          "notes": "Synthetic launch / transit microgravity"
+        },
+        {
+          "id": 110,
+          "crew_id": 2,
+          "recorded_at": "2026-11-11T07:46:09.652873+00:00",
+          "mission_day": 3,
+          "wellness": 4,
+          "fatigue": 3,
+          "mood": 4,
+          "symptoms": "None reported",
+          "notes": "Synthetic launch / transit microgravity"
+        },
+        {
+          "id": 111,
+          "crew_id": 2,
+          "recorded_at": "2026-11-12T07:46:09.652873+00:00",
+          "mission_day": 4,
+          "wellness": 4,
+          "fatigue": 2,
+          "mood": 4,
+          "symptoms": "None reported",
+          "notes": "Synthetic landing / lunar one-sixth gravity surface check-in"
+        },
+        {
+          "id": 112,
+          "crew_id": 2,
+          "recorded_at": "2026-11-13T07:46:09.652873+00:00",
+          "mission_day": 5,
+          "wellness": 4,
+          "fatigue": 3,
+          "mood": 4,
+          "symptoms": "None reported",
+          "notes": "Synthetic landing / lunar one-sixth gravity surface check-in"
+        },
+        {
+          "id": 113,
+          "crew_id": 2,
+          "recorded_at": "2026-11-14T07:46:09.652873+00:00",
+          "mission_day": 6,
+          "wellness": 4,
+          "fatigue": 2,
+          "mood": 4,
+          "symptoms": "None reported",
+          "notes": "Synthetic landing / lunar one-sixth gravity surface check-in"
+        },
+        {
+          "id": 114,
+          "crew_id": 2,
+          "recorded_at": "2026-11-15T07:46:09.652873+00:00",
+          "mission_day": 7,
+          "wellness": 4,
+          "fatigue": 3,
+          "mood": 4,
+          "symptoms": "None reported",
+          "notes": "Synthetic landing / lunar one-sixth gravity surface check-in"
+        }
+      ],
+      "encounters": [
+        {
+          "id": 101,
+          "crew_id": 2,
+          "recorded_at": "2026-11-02T07:46:09.652873+00:00",
+          "mission_day": -6,
+          "title": "Earth baseline review",
+          "notes": "Synthetic pre-launch personal baselines; no clinical assessment."
+        },
+        {
+          "id": 102,
+          "crew_id": 2,
+          "recorded_at": "2026-11-12T07:46:09.652873+00:00",
+          "mission_day": 4,
+          "title": "Lunar south-pole landing",
+          "notes": "Fictional landing. Transit microgravity ends; surface operations use lunar one-sixth gravity."
+        },
+        {
+          "id": 103,
+          "crew_id": 2,
+          "recorded_at": "2026-11-15T07:46:09.652873+00:00",
+          "mission_day": 7,
+          "title": "Surface health check-in",
+          "notes": "Synthetic short-duration surface observations; no established bone or muscle deterioration."
+        }
+      ],
+      "demo_indicators": [],
+      "demo_rules": {
+        "sleep_baseline_fraction": 0.85,
+        "fatigue_review_score": 4
+      }
+    },
+    "/demo-rules": {
+      "sleep_baseline_fraction": 0.85,
+      "fatigue_review_score": 4
+    }
+  },
+  "sources": [
+    {
+      "id": "nasa-1-6bc65e96f702",
+      "doc_id": "nasa-1",
+      "title": "Risks of Human Spaceflight - NASA",
+      "url": "https://www.nasa.gov/hrp/risks/",
+      "publisher": "NASA / Human Research Program",
+      "text": "All astronauts perform exercise during their mission to counteract losses in bone density, muscle strength, and heart and blood vessel performance. Researchers are studying what types of exercise will best protect their health and their ability to perform spacewalks.",
+      "retrieved": "2026-11-13",
+      "source_date": null,
+      "version": "eb196f0d1839a237063b149c8f3ad16534bd75a6b4d2aa41e76183abcf5b2a49",
+      "retrieval_status": "active"
+    },
+    {
+      "id": "nasa-3-ea918f070609",
+      "doc_id": "nasa-3",
+      "title": "The Human Body in Space - NASA",
+      "url": "https://www.nasa.gov/humans-in-space/the-human-body-in-space/",
+      "publisher": "NASA / Human Research Program",
+      "text": "NASA scientists are using devices, such as actigraphy, that help assess and improve sleep and alertness by recording how much people move and how much ambient light is around them. New lighting, spurred by the development of Light-Emitting Diode (LED) technology, is used on the space station to help align astronaut’s circadian rhythms and to improve sleep, alertness, and performance.",
+      "retrieved": "2026-11-13",
+      "source_date": null,
+      "version": "f80287bb7163716c022f53452397a9850ca559985ff1744859824bb6cca26b2f",
+      "retrieval_status": "active"
+    },
+    {
+      "id": "nasa-1-936223e0c984",
+      "doc_id": "nasa-1",
+      "title": "Risks of Human Spaceflight - NASA",
+      "url": "https://www.nasa.gov/hrp/risks/",
+      "publisher": "NASA / Human Research Program",
+      "text": "Space crews experience multiple hazards simultaneously. Stressors include chronic sleep loss, constant work demands, and irregularities in their internal biological clocks. Understanding how to reduce the effects of these stressors on crew health and safety is an ongoing area of research.",
+      "retrieved": "2026-11-13",
+      "source_date": null,
+      "version": "eb196f0d1839a237063b149c8f3ad16534bd75a6b4d2aa41e76183abcf5b2a49",
+      "retrieval_status": "active"
+    },
+    {
+      "id": "nasa-2-6e5e15f05a88",
+      "doc_id": "nasa-2",
+      "title": "Hazard: Isolation and Confinement - NASA",
+      "url": "https://www.nasa.gov/hrp/hazard-isolation-and-confinement/",
+      "publisher": "NASA / Human Research Program",
+      "text": "On Earth, we have the luxury of picking up our cell phones and instantly being connected with nearly everything and everyone around us. On a trip to Mars, astronauts will be more isolated and confined than we can imagine. Sleep loss, circadian desynchronization, and work overload compound this issue and may lead to decreased performance, adverse health outcomes, and compromised mission objectives.",
+      "retrieved": "2026-11-13",
+      "source_date": null,
+      "version": "7647502926c043aa2a83a5c132182d95c1840035bbd96e63fc33bd22f93aed04",
+      "retrieval_status": "active"
+    },
+    {
+      "id": "nasa-2-52190af7daa9",
+      "doc_id": "nasa-2",
+      "title": "Hazard: Isolation and Confinement - NASA",
+      "url": "https://www.nasa.gov/hrp/hazard-isolation-and-confinement/",
+      "publisher": "NASA / Human Research Program",
+      "text": "To address this hazard, experts are developing methods for monitoring behavioral health and adapting/refining various tools and technologies for use in the spaceflight environment to detect and treat early risk factors. Research is also being conducted in workload and performance, light therapy for circadian alignment, phase shifting and alertness. Learn more about how NASA studies isolation and confinement:",
+      "retrieved": "2026-11-13",
+      "source_date": null,
+      "version": "7647502926c043aa2a83a5c132182d95c1840035bbd96e63fc33bd22f93aed04",
+      "retrieval_status": "active"
+    },
+    {
+      "id": "nasa-1-8f3266c7337d",
+      "doc_id": "nasa-1",
+      "title": "Risks of Human Spaceflight - NASA",
+      "url": "https://www.nasa.gov/hrp/risks/",
+      "publisher": "NASA / Human Research Program",
+      "text": "Weightlessness alters blood circulation and how the heart and blood vessels function, potentially increasing the risk of cardiovascular events. Research focuses on minimizing these unhealthy changes.",
+      "retrieved": "2026-11-13",
+      "source_date": null,
+      "version": "eb196f0d1839a237063b149c8f3ad16534bd75a6b4d2aa41e76183abcf5b2a49",
+      "retrieval_status": "active"
+    },
+    {
+      "id": "nasa-1-0412b8b164f7",
+      "doc_id": "nasa-1",
+      "title": "Risks of Human Spaceflight - NASA",
+      "url": "https://www.nasa.gov/hrp/risks/",
+      "publisher": "NASA / Human Research Program",
+      "text": "Isolation, radiation, distance from Earth, and other intense space stressors may all take a toll on the mental health of the crew. Ongoing research seeks to better understand and quantify these psychological risks.",
+      "retrieved": "2026-11-13",
+      "source_date": null,
+      "version": "eb196f0d1839a237063b149c8f3ad16534bd75a6b4d2aa41e76183abcf5b2a49",
+      "retrieval_status": "active"
+    },
+    {
+      "id": "nasa-2-27888d4219a8",
+      "doc_id": "nasa-2",
+      "title": "Hazard: Isolation and Confinement - NASA",
+      "url": "https://www.nasa.gov/hrp/hazard-isolation-and-confinement/",
+      "publisher": "NASA / Human Research Program",
+      "text": "Take a peek into the lives of crew on a simulated mission to Mars. Confined inside NASA's Human Exploration Research Analog (HERA), these crew help researchers study how teams overcome isolation and confinement to accomplish mission-critical tasks.",
+      "retrieved": "2026-11-13",
+      "source_date": null,
+      "version": "7647502926c043aa2a83a5c132182d95c1840035bbd96e63fc33bd22f93aed04",
+      "retrieval_status": "active"
+    },
+    {
+      "id": "nasa-1-2b0e5ab85409",
+      "doc_id": "nasa-1",
+      "title": "Risks of Human Spaceflight - NASA",
+      "url": "https://www.nasa.gov/hrp/risks/",
+      "publisher": "NASA / Human Research Program",
+      "text": "Selecting a crew that works well together is essential for mission success and safety. Researchers are studying how to help teams in prolonged isolation and confinement function efficiently and quickly recover after setbacks occur. They’re also mapping the myriad risks from miscommunications and related team tensions.",
+      "retrieved": "2026-11-13",
+      "source_date": null,
+      "version": "eb196f0d1839a237063b149c8f3ad16534bd75a6b4d2aa41e76183abcf5b2a49",
+      "retrieval_status": "active"
+    }
+  ]
+}

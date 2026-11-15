@@ -32,11 +32,20 @@ These are educational NASA references, **not astronaut patient datasets**.
 
 Research possibilities include automated bone-health biomarkers, robotic ultrasound muscle assessment, privacy-preserving reproductive-health support, specialized AI models, and eventually clinically validated, human-supervised robotic medical-bay workflows.
 
-## Source code publication status
+## Build and run the judging demonstration
 
-**Documentation is available; the source export is pending security and licensing review.** This public repository does not yet contain the application source code. Do not treat it as a complete reproducible build.
+Requires Node.js 24 and npm. Use the Space Apps build mode for the login-free, synthetic demonstration.
 
-The development repository remains private. Before publishing a clean source snapshot, the team will review the entire Git history and release files for secrets, private information, internal infrastructure references, third-party asset rights, license compatibility, and dependency vulnerabilities. The public snapshot must have a fresh history rather than importing the private development history.
+```powershell
+npm ci --prefix frontend
+npm test --prefix frontend
+npm run build --prefix frontend -- --mode space-apps
+npm run preview --prefix frontend -- --port 4173 --strictPort
+```
+
+Open `http://127.0.0.1:4173/`. For static hosting, serve `frontend/dist` and route direct application paths such as `/companion` to `index.html`. After dependencies are installed and assets built, the demo runs without an internet connection. Links to NASA originals and the public video require connectivity.
+
+The React/TypeScript frontend uses Vite, Three.js and React Three Fiber. It loads synthetic mission fixtures and selects reviewed NASA excerpts using fixed topic matching. Four support modes illustrate observation review, check-ins, medication abstention and optional reflection. Session edits live in the tab and reset on reload. The authenticated FastAPI/SQLite application and optional local Qwen model remain part of the separate development prototype. See [attributions and asset review](ATTRIBUTION.md).
 
 The prototype is not clinically validated; no real patient information should be entered. The development application's private SQLite store does not provide encryption at rest.
 
@@ -45,3 +54,7 @@ The prototype is not clinically validated; no real patient information should be
 The prototype has benefited from AI-assisted development and testing. The team should disclose its actual tools and pre-challenge development timeline in the official submission.
 
 Prepared 15 November 2026. For evaluation, begin with the live demo and PDF guide.
+
+## License scope
+
+The proposed Apache-2.0 grant covers original VIGIL code. NASA excerpts, third-party components, fonts, media and the existing PDF retain their own status. See [attribution](ATTRIBUTION.md).
